@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Model Box */ 
+.model-box-stories{
+    display: none;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252728;
+    padding: 6px 0px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 16px;
+}
+.search-bar{
+
+}
+.search-bar-inner{
+    background-color: #333334;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+.search-input {
+    color: #fff;
+    height: 40px;
+    padding: 8px;
+    width: inherit;
+    background: transparent;
+    outline: transparent;
+    border: none;
+}
+.search-input:focus{
+    outline: none;
+}
+.search-input::placeholder{
+    color: #e2e5e9;
+    font-size: 15px;
+}
+.search-icon{
+    padding-left: 12px;
+    margin-top: 4px;
+}
+
+.main-ul-section ul{
+    display: flex;
+    list-style: none;
+}
+.section-li{
+    padding: 8px 0px;
+    position: relative;
+    width: 100px;
+    text-align: center;
+    height: 44px;
+    border-radius: 10px;
+}
+.section-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-li::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    /* background-color: #0866FF; */
+    bottom: -6px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.active::after{
+    background-color: #0866FF;
+}
+
+.navigation-li:hover .section-li{
+    background-color: #333334;
+}
+
+.notification-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.notification-li .notifi-li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    padding: 8px;
+    background-color: #3B3D3E;
+    width: 40px;
+    border-radius: 50%;
+}
+.notification-link{
+    display: flex;
+    align-items: center;
+}
+/* End Header */
