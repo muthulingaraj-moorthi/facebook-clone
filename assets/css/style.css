@@ -908,3 +908,121 @@ footer {
     background-color: #333334;
 }
 /* Main - News Feed Section End */
+
+/* Responsive Website */
+@media (max-width: 767px){
+    .media-container:nth-child(3){
+        display: flex;
+    }
+    .navigation-ul{
+        display: none;
+    }
+    .aside-section-left, 
+    .aside-section-right{
+        display: none;
+    }
+    .news-feed-section{
+        width: 100%;
+    }
+    .newsfeed-section-stories{
+        width: 100%;
+        min-width: 100%;
+        padding: 0px 16px;
+    }
+    .user-stories-setion{
+        width: 100%;
+    }
+    .button-wrapper .butoon-container{
+        padding: 6px 0px;
+    }
+    .name-of-inters{
+        font-size: 14px;
+    }
+  
+    .like-comment-share{
+        margin: 0px;
+    }
+    .search-input{
+        display: none;
+    }
+    .search-bar-inner{
+        width: 42px;
+        height: 42px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:900px ){
+    .navigation-ul{
+        display: flex;
+    }
+    .section-li{
+        width: 60px;
+    }
+    .aside-section-left,
+    .aside-section-right{
+        display: none;
+    }
+    .news-feed-section{
+        width: 100%;
+        max-width: 100%;
+    }
+    .newsfeed-section-stories{
+        width: 100%;
+        min-width: 100%;
+        padding: 0px 16px;
+    }
+    .search-input{
+        display: none;
+    }
+    .search-bar-inner{
+        width: 42px;
+        height: 42px;
+    }
+
+}
+
+@media (min-width: 901px) and (max-width:1100px ){
+    .navigation-ul{
+        display: flex;
+    }
+    .section-li{
+        width: 80px;
+    }
+    
+    .aside-section-left{
+        display: none;
+    }
+    .news-feed-section{
+        width: 100%;
+        max-width: 100%;
+    }
+    .newsfeed-section-stories{
+        width: 100%;
+        min-width: 100%;
+        padding: 0px 16px;
+    }
+    .search-input{
+        display: none;
+    }
+    .search-bar-inner{
+        width: 42px;
+        height: 42px;
+    }
+    .aside-section-right{
+        max-width: 40%;
+        width: 40%;
+    }
+
+}
+
+
+
+@media (max-width: 300px), (max-width: 450px){
+    .media-container:nth-child(3){
+        display: none;
+    }
+}
+
+
+
+/* End */
